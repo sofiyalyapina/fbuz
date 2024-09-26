@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Запись.ру</title>
+</head>
+
+<body>
+    <div class="bg_record"></div>
+    <header class="header">
+        <div class="container">
+            <div class="menu">
+                <a href="./index.html" class="logo"><img src="./img/icon/logo.svg" alt=""></a>
+                <nav class="nav_header">
+                    <ul>
+                        <li><a href="./record.html">Запись</a></li>
+                        <li><a href="./contacts.html">Контакты</a></li>
+                        <li><a href="https://orenfbuz.ru/">Официальный сайт</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <h1 class="title_record">Заполните форму записи на исследование</h1>
+            <div class="flex_record">
+                <form action="785" class="form_record">
+                    <input type="text" placeholder="Ваше имя">
+                    <input type="text" placeholder="Ваш номер телефона">
+
+
+
+                    <div class="select animated zoomIn">
+                        <input type="radio" name="option">
+                        <span class="placeholder">Выберите услугу</span>
+                        <label class="option">
+                            <input type="radio" name="option" value="150">
+                            <span class="title animated fadeIn">Исследование на дифтерию</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="option" value="160">
+                            <span class="title animated fadeIn">Исследование на коклюш и паракоклюш</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="option" value="200">
+                            <span class="title animated fadeIn">Исследование на стафилококки</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="option" value="800">
+                            <span class="title animated fadeIn">Исследование на грипп носоглоточный мазок</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="option" value="1500">
+                            <span class="title animated fadeIn">Исследование на грипп секционный материал</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="option" value="750">
+                            <span class="title animated fadeIn">Исследование на полиомелит</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="option" value="540">
+                            <span class="title animated fadeIn">Исследование РНК вируса гепатита А (HAV)</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="option" value="340">
+                            <span class="title animated fadeIn">Исследование ДНК вируса гепатита В (HBV)</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="option" value="450">
+                            <span class="title animated fadeIn">Исследование РНК вируса гепатита С (HСV)</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="option" value="400">
+                            <span class="title animated fadeIn">Исследование на антиген вирусов А и В</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="option" value="400">
+                            <span class="title animated fadeIn">Исследование на иммуноглобулины М (lg M) </span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="option" value="400">
+                            <span class="title animated fadeIn">Исследование на антиген вируса клещевого энцефалита
+                            </span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="option" value="300">
+                            <span class="title animated fadeIn">Исследование на титр антител в одной сыворотки крови
+                            </span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="option" value="450">
+                            <span class="title animated fadeIn">Исследование на титр антител в парных сыворотках
+                                крови</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="option" value="900">
+                            <span class="title animated fadeIn">Исследование ДНК микоплазмы</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="option" value="350">
+                            <span class="title animated fadeIn">Исследование на возбудителей пневмонии </span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="option" value="500">
+                            <span class="title animated fadeIn">Исследование РНК коронавирусов </span>
+                        </label>
+                    </div>
+
+
+                    <input class="comment_input" type="text" placeholder="Комментарий">
+                </form>
+                <div class="info_record">
+                    <div class="sum">
+                        <p class="total">Итого:</p>
+                        <span class="res"></span>
+                    </div>
+                    <p class="mail">Для получения услуги заявитель лично/дистанционно предоставляет  в Единое
+                        окно оформленную  заявку по установленной форме с приложением пакета документов  (дистанционно
+                        заявка на оказание услуг подается на <a href="#" class="el">электронную почту</a>)</p>
+                    <p class="help">Если вы не нашли услугу, которую хотите получить, оставьте поле “Выберите услугу”
+                        свободным</p>
+                    <a href="#" class="form_button">Единая форма заявки</a>
+                    <a href="#" class="doc_button">Документы, для заключения договора</a>
+                    <button class="record_button">Записаться</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="top_footer">
+                <a href="./index.html"><img src="./img/icon/logo.svg" alt=""></a>
+                <nav class="menu_footer">
+                    <ul>
+                        <li><a href="./record.html">Запись</a></li>
+                        <li><a href="./contacts.html">Контакты</a></li>
+                        <li><a href="https://orenfbuz.ru/">Официальный сайт</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <p class="bottom_footer">Центр гигиены и эпидемиологии в Оренбургской области</p>
+        </div>
+    </footer>
+
+
+    <script src="./js/record.js"></script>
+</body>
+
+</html>
